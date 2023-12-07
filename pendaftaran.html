@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>tugas form</title>
+     <link rel="stylesheet" href="pendaftaran.css">
+</head>
+<body>
+     <div class="wrap">
+     <div class="container">
+     <div class="bg-text">
+          <h1><center>Pendaftaran Anggota HMPS</h1></center>
+          <p class="subtitle">UIN Imam Bonjol Tahun 2023</p>
+          <hr>
+               <table border="0" align="center">
+                    <tr>
+                         <td>Nama</td>
+                         <td>:</td>
+                         <td><input type="text" name="Nama"></td>
+                    </tr>
+                    <tr>
+                         <td>NIM</td>
+                         <td>:</td>
+                         <td><input type="text" name="nim"></td>
+                    </tr>
+                    <tr>
+                         <td>Jenis Kelamin</td>
+                         <td>:</td>
+                         <td>
+                              <input type="radio"  id="Laki-laki" name="jeniskelamin">
+                              <label for="jeniskelamin1">Laki-laki</label>
+
+                              <input type="radio" id="Perempuan" name="jeniskelamin">
+                              <label for="jeniskelamin2">Perempuan</label>
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>Divisi</td>
+                         <td>:</td>
+                         <td>
+                              <select name="Divisi">
+                                   <option>---Pilih Divisi---</option>
+                                   <option>Komputer Jaringan</option>
+                                   <option>IT Support</option>
+                                   <option>Linux</option>
+                                   <option>Servis AC</option>
+                                   <option>Network Desain</option>
+                                   <option>Installasi Komputer</option>
+                              </select>
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>Email</td>
+                         <td>:</td>
+                         <td>
+                              <input type="email" name="email">
+                         </td>
+                    </tr>
+                    <tr>
+                         <td>No Telepon</td>
+                         <td>:</td>
+                         <td><input type="angka" name="no_telepon" ></td>
+                    </tr>
+                    <tr>
+                         <td>Uraian Diri</td>
+                         <td>:</td>
+                         <td><textarea cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr> 
+                         <td></td>
+                         <td></td>
+                         <td>
+                             <button type="submit" name="daftar">Daftar</button>
+                             <button id="btn" onclick="window.location.href='index.html'" type="button" >Back</button>
+                         </td>
+                     </tr>
+                    <tr>
+                         <td>&copyPadang, 2023</td>
+                     </tr>                 
+               </table>
+     </div> 
+     </div>
+     </div>
+</body>
+</html>
